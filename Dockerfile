@@ -10,6 +10,7 @@ ADD nfs.stop /etc/sv/nfs/finish
 ADD nfs_setup.sh /usr/local/bin/nfs_setup
 
 VOLUME /exports
+VOLUME /mnt/srv
 
 EXPOSE 111/udp 2049/tcp
 
